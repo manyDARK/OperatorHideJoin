@@ -13,7 +13,7 @@ class Main extends PluginBase implements Listener{
     public function onEnable(){
        $this->getServer()->getPluginManager()->registerEvents($this, $this);
        $this->saveDefaultConfig();
-	   $this->getLogger()->info(TextFormat::DARK_GREEN . "Operator join is invisible now." . TextFormat::GREEN . " (Crypt)");
+       $this->getLogger()->info(TextFormat::DARK_GREEN . "Operator join is invisible now." . TextFormat::GREEN . " (Crypt)");
     }
 	
 	public function onJoin(PlayerJoinEvent $event){
